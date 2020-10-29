@@ -22,7 +22,7 @@ sudo update-alternatives --install
 Change the default theme to yours by entering the theme number.
 
 ```bash
-sudo update-initramfs -u
+sudo update-alternatives --config default.plymouth
 ```
 
 For the changes take effect run the following command.
